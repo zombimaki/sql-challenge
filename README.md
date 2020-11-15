@@ -2,8 +2,8 @@
 
 The SQL Challenge project consisted of the following processes and activities:
 
-1. Created an ERD of the tables to be used in the project. The ERD was created with quickdatabasediagrams.com and the imgage was saved to the EmployeeSQL folder.
-2. From quickdatabasediagrams.com the code for PostgreSQL was exported through the tool to create the tables and constraints. The sql file with this code is named schema.sql and is in the EmployeeSQL folder.
+1. Created an ERD of the tables to be used in the project. The ERD was created with quickdatabasediagrams.com and the imgage was saved to the EmployeeSQL folder as employee_ERD.png.
+2. A SQL file was created that creates the database tables and constraints. The sql file with this code is named schema.sql and is in the EmployeeSQL folder.
 3. Manualy imported the csv files into the new tables through PGadmin, paying special attention to the column names and locations.
 4. Created the SQL file, data_analysis.sql, in the EmployeeSQL folder with queries to return the following data:
 a. Employee number, last name, first name, sex, and salary<br />
