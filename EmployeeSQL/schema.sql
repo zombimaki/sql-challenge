@@ -1,4 +1,6 @@
-﻿--Create tables for employee databae
+﻿--------------------------------------------------------------------
+-- Create tables for employee database
+--------------------------------------------------------------------
 
 CREATE TABLE "departments" (
     "dept_no" varchar(4)   NOT NULL,
@@ -58,6 +60,10 @@ CREATE TABLE "salaries" (
         "emp_no"
      )
 );
+
+--------------------------------------------------------------------
+--Add FOREIGN KEY contraints 
+--------------------------------------------------------------------
 
 ALTER TABLE "employees" ADD CONSTRAINT "fk_employees_emp_title_id" FOREIGN KEY("emp_title_id")
 REFERENCES "titles" ("title_id");
